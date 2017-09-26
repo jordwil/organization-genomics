@@ -44,7 +44,7 @@ also introduce you to some helpful shell commands, programs and tools, including
 * ``tail``  
 * ``|``  
 * ``nano``  
-* ``>>``  
+* ``>``  
 
 We will start by creating a directory that we can use for the rest of the workshop. First make sure you're in
 your home directory, then type:  
@@ -112,7 +112,7 @@ $ history | tail -n 7
 As you may remember from the shell lesson, the pipe `|` sends the output of history to the next program, in
 this case `tail`. We have used the `-n` option to give the last 7 lines.  
 
-Using your knowledge of the shell use the append redirect `>>` to create a file called
+Using your knowledge of the shell use the overwrite redirect `>` to create a file called
 **dc_workshop_log_XXXX_XX_XX.txt** (Use the four-digit year, two-digit month, and two digit day, e.g.
 dc_workshop_log_2015_07_30.txt)  
 
@@ -125,7 +125,7 @@ from our log, lets use the `nano` text editor to fix the file:
 
 From the nano screen, you should be able to use your cursor to navigate, type, and delete any redundant lines.   
 
-Add a dateline and comment to the line where you have created the directory, for example:   
+Add a date line and comment to the line where you have created the directory, for example:   
 
 ```bash
 # 2015_07_30   
